@@ -1,0 +1,24 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Assignment für das Modul verteilte Systeme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alxexx/verteilteSysteme.git"
+  },
+  "author": "Alexander Werner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alxexx/verteilteSysteme/issues"
+  },
+  "homepage": "https://github.com/Alxexx/verteilteSysteme#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-validators": "^1.0.4",
+    "nodemon": "^2.0.15"
+  }
+}
