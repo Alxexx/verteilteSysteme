@@ -1,9 +1,10 @@
 {
-  "name": "npm",
+  "name": "verteiltesysteme",
   "version": "1.0.0",
-  "description": "Assignment für das Modul verteilte Systeme",
-  "main": "app.js",
+  "description": "Modulprüfung für Verteilte Systeme",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
