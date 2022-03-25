@@ -3,7 +3,7 @@
 2. [Entwickler](#entwickler)
 3. [Details zur API](#details)
 4. [Prüfungsfragen](#fragen)
-
+***
 
 ### Beschreibung
 
