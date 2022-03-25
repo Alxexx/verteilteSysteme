@@ -3,15 +3,21 @@ import { check, validationResult } from "express-validator";
 const movies = [
   {
     id: 0,
-    title: "Project Hail Mary",
-    author: "Andy Weir",
-    pages: 496,
+    title: "The Adam Project",
+    director: "Shawn Levy",
+    duration: 106,
   },
   {
     id: 1,
-    title: "Harrow the Ninth",
-    author: "Tamsyn Muir",
-    pages: 512,
+    title: "The Tomorrow War",
+    director: "Chris McKay",
+    duration: 140,
+  },
+  {
+    id: 2,
+    title: "Interstellar",
+    director: "Christopher Nolan",
+    duration: 169,
   },
 ];
 export const getMovies = (req, res) => {
