@@ -1,4 +1,4 @@
-## Inhalt
+## Inhaltsverzeichnis
 1. [Beschreibung](#beschreibung)
 2. [Entwickler](#entwickler)
 3. [Details zur API](#details)
