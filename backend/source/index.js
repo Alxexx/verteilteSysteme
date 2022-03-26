@@ -17,7 +17,7 @@ app.all("*", (req, res) => res.sendStatus(404));
 
 
 
-mongoose.connect("mongodb://127.0.0.1/testdb").then(() => {
+mongoose.connect("mongodb://localhost:27017/testdb").then(() => {
 console.log("Database connected");
 });
 
