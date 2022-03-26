@@ -1,26 +1,7 @@
 {
-  "name": "verteiltesysteme",
-  "version": "1.0.0",
-  "description": "Modulprüfung für Verteilte Systeme",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alxexx/verteilteSysteme.git"
-  },
-  "author": "Alexander Werner",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alxexx/verteilteSysteme/issues"
-  },
-  "homepage": "https://github.com/Alxexx/verteilteSysteme#readme",
   "dependencies": {
     "express": "^4.17.3",
     "express-validator": "^6.14.0",
-    "express-validators": "^1.0.4",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.2.8"
   }
 }
