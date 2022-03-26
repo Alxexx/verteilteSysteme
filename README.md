@@ -20,6 +20,17 @@ Diese API wurde für die Modulprüfung in Verteilte Systeme von Studierenden aus
 
 Die API befindet sich zur Zeit noch in Entwicklung.
 ***
+
+API Endpoint 1:
+TODO
+
+API Endpoint 2:
+TODO
+
+API Endpoint 3:
+TODO
+
+***
 ## Prüfungsfragen
 
 TODO
