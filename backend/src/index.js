@@ -2,6 +2,8 @@ import express from "express";
 import bodyParser from "body-parser";
 import movieRoutes from "./routes/movieRoutes.js";
 import mongoose from "mongoose";
+import swaggerUi from "swagger-ui-express";
+import swaggerDocs from "../swaggerDocs.js";
 
 // complete application is here
 const app = express();
