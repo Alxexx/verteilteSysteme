@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 
 //routes are /movies & everything else throws a 404
 app.use("/movies", movieRoutes);
+app.use("/api", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.all("*", (req, res) => res.sendStatus(404));
 
 
