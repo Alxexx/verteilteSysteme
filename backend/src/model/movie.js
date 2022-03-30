@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const movieSchema = new mongoose.Schema({
-  id: Number,
+  //id: Number,
   title: String,
   director: String,
   duration: Number,
