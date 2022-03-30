@@ -1,8 +1,8 @@
 ## Inhaltsverzeichnis
 1. [Beschreibung](#beschreibung)
 2. [Entwickler](#entwickler)
-3. [Details zur API](#details)
-4. [Prüfungsfragen](#fragen)
+3. [API](#api)
+4. [Prüfungsfragen](#prüfungsfragen)
 ***
 
 ### Beschreibung
@@ -16,7 +16,7 @@ Diese API wurde für die Modulprüfung in Verteilte Systeme von Studierenden aus
 * Alexander Werner
 ***
 
-## Details zur API
+## API
 
 Die API befindet sich zur Zeit noch in Entwicklung.
 
