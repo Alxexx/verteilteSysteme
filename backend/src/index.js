@@ -10,6 +10,8 @@ const app = express();
 const port = 4000;
 
 
+
+
 app.use(bodyParser.json());
 
 //routes are /movies & everything else throws a 404
