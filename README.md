@@ -37,13 +37,13 @@ TODO
 Service und schildert (in wenigen Worten) eine mögliche
 Gesamt-Architektur in welcher sich dieser befinden könnte.
 
-Antwort: TODO
+Antwort: Unser Service soll es ermöglichen, als Videothek zu funktionieren. Dabei können Filme angezeigt werden. Es können auch Informationen zu Filmen wie zum Beispiel der Autor oder die Dauer des Films dargestellt werden. Der Service könnte wie eine Art Mini-Netflix angesehen werden. :D
 
 * Welche Probleme können entstehen, wenn der entwickelte Service von
 mehreren Parteien verwendet wird? Beschreibt zwei Probleme sowie
 mögliche Lösungen.
 
-Antwort: TODO
+Antwort: 
 
 * Was ist abseits der reinen Programmierung für die Produktivsetzung des
 entwickelten Services zu beachten? Nenne mindestens zwei Aspekte und
