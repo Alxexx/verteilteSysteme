@@ -22,6 +22,7 @@ const movies = [
 ];
 export const getMovies = (req, res) => {
   res.status(200).send(movies);
+  res.set("Access.Control-Allow-Origin", "http://localhost:3000");
 };
 export const getMovieById = (req, res) => {
   let movie = movies.find((b) => b.id == req.params.id);

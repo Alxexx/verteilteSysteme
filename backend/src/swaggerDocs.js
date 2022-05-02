@@ -9,7 +9,7 @@ const swaggerDocs = {
         url: "https://opensource.org/licenses/MIT",
       },
     },
-    host: "localhost:4000",
+    host: "localhost:3000",
     basePath: "/movies",
     tags: [
       {
@@ -28,7 +28,7 @@ const swaggerDocs = {
             200: {
               description: "OK",
               schema: {
-                $ref: "#/definitions/City",
+                $ref: "#/definitions/Movie",
               },
             },
           },
