@@ -13,16 +13,14 @@ class App extends Component {
 
   }
 
-  // requests and waits for data by calling RestClient's
-  // fetchAllBooks. as soon as the data is there it is set
-  // as a state
+ 
 
   async fetchDisplayData() {
     let data = await fetchAllBooks();
     this.setState({ books: data });
   }
 
-  // this is displayed on the screen
+
 
   render() {
     return (
