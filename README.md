@@ -18,17 +18,17 @@ Diese API wurde für die Modulprüfung in Verteilte Systeme von Studierenden aus
 
 ## API
 
-Die API befindet sich zur Zeit noch in Entwicklung.
+Die API kann man sich als eine Videothek vorstellen. Sie enthält Informationen über Filme, Direktoren und Genres. 
 
 
 API Endpoint 1:
-TODO
+/movies/
 
 API Endpoint 2:
-TODO
+/directors/
 
 API Endpoint 3:
-TODO
+/genres/
 
 ***
 ## Prüfungsfragen
@@ -37,13 +37,13 @@ TODO
 Service und schildert (in wenigen Worten) eine mögliche
 Gesamt-Architektur in welcher sich dieser befinden könnte.
 
-Antwort: Unser Service soll es ermöglichen, als Videothek zu funktionieren. Dabei können Filme angezeigt werden. Es können auch Informationen zu Filmen wie zum Beispiel der Autor oder die Dauer des Films dargestellt werden. Der Service könnte wie eine Art Mini-Netflix angesehen werden. :D
+Antwort: Unser Service soll es ermöglichen, als Videothek zu funktionieren. Dabei können Filme angezeigt werden. Es können auch Informationen zu Filmen wie zum Beispiel Autoren oder Genres dargestellt werden. Der Service könnte wie eine Art Mini-Netflix angesehen werden. :D
 
 * Welche Probleme können entstehen, wenn der entwickelte Service von
 mehreren Parteien verwendet wird? Beschreibt zwei Probleme sowie
 mögliche Lösungen.
 
-Antwort: 
+Antwort: TODO
 
 * Was ist abseits der reinen Programmierung für die Produktivsetzung des
 entwickelten Services zu beachten? Nenne mindestens zwei Aspekte und
