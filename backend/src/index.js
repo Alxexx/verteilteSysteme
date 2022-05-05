@@ -14,8 +14,10 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-//routes are /movies & everything else throws a 404
+//routes are /movies, /directors, /genres & everything else throws a 404
 app.use("/movies", movieRoutes);
+app.use("/directors", directorRoutes);
+app.use("/genres", genreRoutes);
 app.use("/api", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.all("*", (req, res) => res.sendStatus(404));
 
