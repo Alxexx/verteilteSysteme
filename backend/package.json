@@ -2,7 +2,6 @@
   "name": "verteiltesysteme",
   "version": "1.0.0",
   "description": "Modulprüfung für Verteilte Systeme",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon -L src/index.js"

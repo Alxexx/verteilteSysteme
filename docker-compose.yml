@@ -1,24 +1,34 @@
 version: "3.4"
 
 services:
-  backend:
-    image: node:17-alpine
-    container_name: backend
+   frontend:
+    image: node:17
+    container_name: frontend
     build:
-      context: backend
+      context: frontend
       dockerfile: ./Dockerfile
     ports:
       - 3000:3000
-    volumes:
-      - ./backend:/app
     depends_on:
+      - backend
+    backend:
+      image: node:17-alpine
+      container_name: backend
+      build:
+       context: backend
+      dockerfile: ./Dockerfile
+      ports:
+      - 4000:4000
+      volumes:
+      - ./backend:/app
+      depends_on:
       - mongodb
-  mongodb:
-    image: mongo:latest
-    container_name: mongo
-    ports:
+    mongodb:
+      image: mongo:latest
+      container_name: mongo
+      ports:
       - 27017:27017
-    volumes: 
+      volumes: 
       - .db/:/data/db
-    command:
+      command:
       - --quiet

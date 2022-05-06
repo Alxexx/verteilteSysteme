@@ -9,7 +9,7 @@ import swaggerDocs from "../swaggerDocs.js";
 
 // complete application is here
 const app = express();
-const port = 3000;
+const port = 4000;
 
 
 

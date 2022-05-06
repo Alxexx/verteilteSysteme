@@ -2,7 +2,7 @@ import { check, validationResult } from "express-validator";
 import { Genre } from "../model/genre.js";
 
 export const getGenres = async (req, res) => {
-    res.set("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.set("Access-Control-Allow-Origin", "http://localhost:4000");
     const genres = await Genre.find();
     if(genres.length==0){
       return res.status(400).send({error: "Genre nicht gefunden!"});

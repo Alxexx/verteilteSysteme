@@ -3,5 +3,5 @@ WORKDIR /pp
 COPY package.json package-lock.json ./
 RUN npm install -g nodemon && npm install
 COPY src ./src
-EXPOSE 3000
+EXPOSE 4000
 ENTRYPOINT ["npm", "start"]
