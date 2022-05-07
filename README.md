@@ -65,7 +65,18 @@ Eine mögliche Lösung zum Entgegenwirken des Problems kann die Anwendung eines 
 entwickelten Services zu beachten? Nenne mindestens zwei Aspekte und
 führe diese in ein paar Sätzen aus.
 
-Antwort: TODO
+Antwort: 
+
+Steakholder müssen vorbereitet sein
+
+Die Steakholder (Nutzer, Betreuer, Administratoren), welche das System nutzen oder betreuen müssen auf die Produktivsetzung vorbereitet sein. Die Einführung sollte mit einiger Vorlaufzeit angekündigt und geplant werden. Eine überstürzte Einführung kann die Beteiligten überfordern. Die Beteiligten sollten wissen auf, welches System, mit welchen Anforderungen sie sich zukünftig einstellen müssen. Die Beteiligten können sich auf das entsprechende System vorbereiten und sich selbst über die neuen Einsatzmöglichkeiten bewusst werden. Schulungen für die einzelnen Betriebsbereiche sollten im Vorfeld geplant und vorbereitet werden. Diese sind wichtig um jeden Nutzer, aus jedem einzelnen Bereich, auf den entsprechenden Umgang mit der Software erlernen kann und die technischen Details kennt. Auch der Übergang von einem eventuellen Altsystem auf die Einführung muss mit den Beteiligten geplant werden. 
+
+
+
+Prozesse müssen abgestimmt werden
+
+Mit der neuen Software werden auch neue Prozesse eingeführt, welche aber noch nicht abgestimmt sind. Bei der Auswahl und der Einführung der Software ging es auch um Verbesserungen bei betrieblichen Prozessen. Das ist meist der Fall, wenn eine Unternehmenssoftware erstmalig eingeführt oder gewechselt wird. Manchmal sind dann die Verbesserungen in Abläufen, die mit der Softwareeinführung einhergehen, noch nicht praxisreif. Dann kann es vorkommen, dass die Mitarbeiter der Software die Schuld geben, obwohl eigentlich der Prozess als solches noch verbessert werden müsste. Die richtige Kommunikation und Abstimmung im Vorfeld können diesem Problem vorbeugen. Die Nutzer können im Vorfeld in den Planungsprozess einbezogen werden. Systemprozesse und die Prozesse innerhalb des Unternehmens sollten synchron verlaufen, um Abstimmungsprobleme zu vermeiden.
+
 
 
 
