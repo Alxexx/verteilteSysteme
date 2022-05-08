@@ -34,7 +34,9 @@ class App extends Component {
           {/* generates a div for every entry */}
           {this.state.books.map((book, key) => (
             <div key={key}>
-              {book.title} by {book.author}
+              Movie: {book.movieName},
+              Director: {book.director}, 
+              Duration: {book.duration}
             </div>
           ))}
         </div>

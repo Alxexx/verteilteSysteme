@@ -2,7 +2,7 @@ import { check, validationResult } from "express-validator";
 import { Movie } from "../model/movie.js";
 
 export const getMovies = async (req, res) => {
-  res.set("Access-Control-Allow-Origin", "http://localhost:4000");
+  res.set("Access-Control-Allow-Origin", "http://localhost:3000");
   const movies = await Movie.find();
   if(movies.length==0){
     return res.status(400).send({error: "Es konnte kein Film gefunden werden."});

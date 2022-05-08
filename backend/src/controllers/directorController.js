@@ -2,7 +2,7 @@ import { check, validationResult } from "express-validator";
 import { Director } from "../model/director.js";
 
 export const getDirectors = async (req, res) => {
-    res.set("Access-Control-Allow-Origin", "http://localhost:4000");
+    res.set("Access-Control-Allow-Origin", "http://localhost:3000");
     const directors = await Director.find();
     if(directors.length==0){
       return res.status(400).send({error: "Direktor nicht gefunden!"});
